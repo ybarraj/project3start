@@ -18,13 +18,27 @@ module.exports = function(grunt) {
             width: 1600,
             suffix: '_large_2x',
             quality: 30
+          },
+          {
+            /* Change these */
+            width: 800,
+            suffix: '_large_1x',
+            quality: 30
+          },
+          {
+            /* Change these */
+            width: 600,
+            suffix: '_med_1x',
+            quality: 30
+          },
+          {
+            /* Change these */
+            width: 400,
+            suffix: '_small_1x',
+            quality: 30
           }]
         },
 
-        /*
-        You don't need to change this part if you don't change
-        the directory structure.
-        */
         files: [{
           expand: true,
           src: ['*.{gif,jpg,png}'],
